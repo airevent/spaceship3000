@@ -145,8 +145,8 @@ gulp.task("panel-css", [
         .pipe(concat("bundle.css"))
         .pipe(gulp.dest(__dirname + "/dst/panel"))
 })
-defined
-gulp.task("panel-js", [
+
+defined gulp.task("panel-js", [
     "panel-html",
 ], () => {
     let b = browserify({
