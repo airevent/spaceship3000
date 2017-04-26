@@ -1,0 +1,48 @@
+{
+  "name": "spaceship3000",
+  "version": "1.0.0",
+  "description": "This ship requires experienced engineer",
+  "scripts": {
+    "start": "NODE_ENV=production gulp once && NODE_ENV=production node dst/system/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:airevent/spaceship3000.git"
+  },
+  "keywords": [
+    "spaceship"
+  ],
+  "author": "Anonymous",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/airevent/spaceship3000/wiki",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.3.0",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "http": "0.0.0",
+    "node-notifier": "^5.1.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.3.1"
+  }
+}
